@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #0D192C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    Height: 596px;
+    border-Radius: 15px;
+    background-color: rgba(21, 38, 63, 1);
+    padding: 24px;
+}
+
+.card .eth-img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.card .view {
+    width: 302px;
+    height: 302px;
+    position: relative;
+    background: rgba(0, 255, 248, 0.5);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card .view:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+  
+
+.card .view img{
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+    z-index: 99;
+    position: absolute;
+}
+
+
+.card h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card h1:hover {
+    color: #00FFF8;
+}
+
+.card p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.card .price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.card .price .price-num {
+    display: flex;
+    gap: 6.49px;
+    align-items: center;
+}
+
+.card .price .price-num img {
+    width: 11px;
+    height: 18px;
+}
+
+.card .price .price-num p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.card .price .price-time {
+    display: flex;
+    align-items: center;
+    gap: 9.3px;
+}
+
+.card .price .price-time img {
+    width: 13.33px;
+    height: 13.33px;
+}
+
+.card .price .price-time p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+.card .line {
+    width: 100%;
+    height: 1px;
+    background: #2E405A;
+}
+
+.card .owner {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.card .owner .owner-img {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    background-image: url(./images/image-avatar.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.card .owner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-right: 5px;
+}
+
+.card .owner span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.card .owner span:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
