@@ -16,4 +16,4 @@ This website was created using:
 
 
 # Link
-- Live Site URL: https://anzori-pr.github.io/NFT-Card-/index.html
+- Live Site URL: https://anzori-pr.github.io/NFT-Card
